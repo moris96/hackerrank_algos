@@ -15,3 +15,13 @@ import sys
 # print(simpleArraySum([1,2,3]))
 
 
+#mini max sum 
+# def miniMaxSum(arr):
+#     maxx = max(arr)
+#     minn = min(arr)
+#     i = 0 
+#     for i in arr: 
+#         a = sum(arr) - maxx 
+#         b = sum(arr) - minn 
+#     print(a,b)
+# print(miniMaxSum([1,3,5,7,9]))
