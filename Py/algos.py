@@ -25,3 +25,19 @@ import sys
 #         b = sum(arr) - minn 
 #     print(a,b)
 # print(miniMaxSum([1,3,5,7,9]))
+
+
+#plus-minus
+# def plusMinus(arr):
+#     pos = 0 
+#     neg = 0 
+#     zero = 0 
+#     for i in arr:
+#         if i>0: pos += 1
+#         elif i<0: neg += 1
+#         else: zero += 1 
+#     print(pos/len(arr))
+#     print(neg/len(arr))
+#     print(zero/len(arr))
+    
+# print(plusMinus([-4, 3, -9, 0, 4, 1]))
