@@ -39,5 +39,11 @@ import sys
 #     print(pos/len(arr))
 #     print(neg/len(arr))
 #     print(zero/len(arr))
-    
 # print(plusMinus([-4, 3, -9, 0, 4, 1]))
+
+
+#very big sum
+# def aVeryBigSum(ar):
+#     sum = 0 
+#     for i in range(len(ar)): sum += ar[i]
+#     return sum 
