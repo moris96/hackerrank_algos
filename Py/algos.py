@@ -47,3 +47,12 @@ import sys
 #     sum = 0 
 #     for i in range(len(ar)): sum += ar[i]
 #     return sum 
+
+
+#diagonal difference
+def diagonalDifference(arr):
+    matrix = 0
+    res = 0 
+    for i in range(0, len(arr)): matrix = matrix + arr[i][i]
+    for j in range(0, len(arr)): res = res + arr[j][len(arr)-1-j]
+    return abs(matrix-res)
