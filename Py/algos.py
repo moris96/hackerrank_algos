@@ -50,9 +50,22 @@ import sys
 
 
 #diagonal difference
-def diagonalDifference(arr):
-    matrix = 0
-    res = 0 
-    for i in range(0, len(arr)): matrix = matrix + arr[i][i]
-    for j in range(0, len(arr)): res = res + arr[j][len(arr)-1-j]
-    return abs(matrix-res)
+# def diagonalDifference(arr):
+#     matrix = 0
+#     res = 0 
+#     for i in range(0, len(arr)): matrix = matrix + arr[i][i]
+#     for j in range(0, len(arr)): res = res + arr[j][len(arr)-1-j]
+#     return abs(matrix-res)
+
+
+#time conversion
+# def timeConversion(s):
+#     #check if last 2 elements of time is AM and first 2 are 12 
+#     if s[-2:] == 'AM' and s[:2] == '12': return '00' + s[2:-2]
+#     #remove AM 
+#     elif s[-2:] == 'AM': return s[:-2]
+#     #check if last 2 elements of time is PM and first 2 are 12 
+#     elif s[-2:] == 'PM' and s[:2] == '12': return s[:-2]
+#     #add 12 to hours and remove PM 
+#     else: return str(int(s[:2]) + 12) + s[2:8]
+# print(timeConversion('07:05:45PM'))
