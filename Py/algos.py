@@ -6,6 +6,15 @@ import re
 import sys
 
 
+#solveMeFirst
+# def solveMeFirst(a,b):
+# 	return a+b 
+# num1 = int(input())
+# num2 = int(input())
+# res = solveMeFirst(num1,num2)
+# print(res)
+
+
 #simple array sum 
 # def simpleArraySum(ar):
 #     n = 0 
@@ -69,3 +78,15 @@ import sys
 #     #add 12 to hours and remove PM 
 #     else: return str(int(s[:2]) + 12) + s[2:8]
 # print(timeConversion('07:05:45PM'))
+
+
+#super reduced string
+# def superReducedString(s):
+#     res = []
+#     for i in range(len(s)):
+#         if len(res)==0 or s[i] != res[-1]: res.append(s[i])
+#         else: res.pop()
+#     return 'Empty String' if len(res)==0 else ''.join(res)
+# print(superReducedString('aaabccddd'))
+
+
