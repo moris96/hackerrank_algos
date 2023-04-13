@@ -6,6 +6,7 @@ import re
 import sys
 
 
+
 #solveMeFirst
 # def solveMeFirst(a,b):
 # 	return a+b 
@@ -98,3 +99,14 @@ import sys
 #     return count 
 # print(findDigits(124)) 
 # print(findDigits(10)) 
+
+
+#pangram
+# def pangrams(s):
+#     letters = 'abcdefghijklmnopqrstuvwxyz'
+#     for i in letters: 
+#         if i not in s.lower(): return 'not pangram'
+#     return 'pangram'
+# print(pangrams('The quick brown fox jumps over the lazy dog'))
+
+
