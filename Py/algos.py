@@ -90,3 +90,11 @@ import sys
 # print(superReducedString('aaabccddd'))
 
 
+#find digits (divisible)
+# def findDigits(n):
+#     count = 0
+#     for i in list(str(n)):
+#         if int(i) != 0 and n % int(i)==0: count += 1
+#     return count 
+# print(findDigits(124)) 
+# print(findDigits(10)) 
