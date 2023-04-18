@@ -1,4 +1,4 @@
-//camel case
+// camel case
 // function camelcase(s) {
 //     let numWords = 0
 //     for(const i in s){
