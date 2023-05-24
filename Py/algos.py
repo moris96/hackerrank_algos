@@ -114,3 +114,10 @@ import sys
 # def staircase(n):
 #     for i in range(1, n+1): print(' ' * (n-i) + '#' * i)
 # print(staircase(6))
+
+
+#grading students
+# adds = [0,0,0,2,1]
+# def gradingStudents(grades):
+#     return [i if i<38 else i + adds[i%5] for i in grades]
+
